@@ -1,0 +1,17 @@
+{
+  "name": "javascript-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "cover": "jest --coverage",
+    "test:watch": "jest --watch ./src/*",
+    "it": "jest ./integration/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
