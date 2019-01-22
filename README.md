@@ -17,20 +17,6 @@ And the value as a JSON Payload
 
 Example:
 
-Feature: Roman to Decimal
-As a football fan
-I want to be able to easily convert Roman numerals to Decimal
-So that I know what Super Bowl I am watching
-
-Scenario: Converting a valid Roman Numeral to Decimal
-
-Given A call to "/converter/roman/decimal/:symbols"
-When the symbols are all valid Roman numerals
-Then it should respond with a 200
-And the value as a JSON Payload
-
-Example:
-
 | symbols	| expected	| 
 | IV | {"romanNumeral":IV, decimalValue:4} |
 | XIX | {"romanNumeral":XIX, decimalValue:19} |
