@@ -23,7 +23,7 @@ Example:
 | MMVI | {"romanNumeral":MMVI, decimalValue:2006} |
 | MCMXLIV | {"romanNumeral":MCMXLIV, decimalValue:1944} |
 | XLIV | {"romanNumeral":XLIV, decimalValue:44} |
-| XCX | {"romanNumeral":XCX, decimalValue:90} |
+| XC | {"romanNumeral":XC, decimalValue:90} |
 
 Scenario: When the Roman Numeral is not valid
 
