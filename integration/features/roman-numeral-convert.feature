@@ -6,8 +6,6 @@ So that I know what Super Bowl I am watching
 Scenario: Converting a valid Roman Numeral to Decimal
 
 Given A call to "/converter/roman/decimal/:symbols"
-When the symbols are all valid Roman numerals
-Then it should respond with a 200
 And the value as a JSON Payload
 
 Example:
@@ -18,7 +16,7 @@ Example:
 | MMVI | {"romanNumeral":MMVI, decimalValue:2006} |
 | MCMXLIV | {"romanNumeral":MCMXLIV, decimalValue:1944} |
 | XLIV | {"romanNumeral":XLIV, decimalValue:44} |
-| XCX | {"romanNumeral":XCX, decimalValue:90} |
+| XC | {"romanNumeral":XCX, decimalValue:90} |
 
 Scenario: When the Roman Numeral is not valid
 
